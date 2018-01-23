@@ -27,8 +27,8 @@ end
 
 def get_english_meaning(load_yaml, jap_emote)
   file = load_library(load_yaml)
-  if file["get_emoticon"].include?(jap_emote)
-    return file[get_emoticon][jap_emote]
+  if file["get_meaning"].include?(jap_emote)
+    return file[get_meaning][jap_emote]
   else
     return "Sorry, that emoticon was not found"
 end
