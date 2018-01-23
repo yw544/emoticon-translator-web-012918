@@ -11,7 +11,7 @@ def load_library(load_yaml)
   }
   file.each do |emoticon, arr|
     e_hash["get_meaning"][arr[1]] = emoticon
-    e_hash["get_meaning"][arr[0]] = arr[1]
+    e_hash["get_emoticon"][arr[0]] = arr[1]
 end
 e_hash
 end
