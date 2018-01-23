@@ -33,4 +33,3 @@ def get_english_meaning(load_yaml, jap_emote)
     return "Sorry, that emoticon was not found"
 end
 end
-end
